@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>My Website Title</title>
+     </head>
+     <body>
+          Hello World you
+          <script>
+          const data = '{ "employees" ,"nonemployees"}';
+        console.log(JSON.stringify(data))
+
+
+        fetch('/localhost/', {
+              method:'post',
+            headers: {
+             'Content-Type': 'application/json'
+            },
+            body:JSON.stringify(data)
+          }).then(function(result) {
+            console.log('abclollll');
+          }).catch(function (err){
+            console.log(err)
+          })
+          </script>
+
+     </body>
+</html>

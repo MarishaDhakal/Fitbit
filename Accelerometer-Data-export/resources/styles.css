@@ -29,3 +29,13 @@
   x: 50%;
   y: $;
 }
+.application-fill           { fill: fb-yellow; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#button-1 #text {
+  text-buffer: "Start";
+}
+#button-2 #text {
+  text-buffer: "Stop";
+}
